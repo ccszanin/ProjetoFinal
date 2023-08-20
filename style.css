@@ -1,0 +1,107 @@
+/*Glassmorfismo no Navbar*/
+.navbar{
+background: rgba(255, 255, 255, 0.35);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+  width: 100%;
+}
+
+.navbar a{
+  color:#1e1e1e;
+}
+
+.navbar a:hover{
+  background-color: #FFAECA;
+  color: white;
+  border-radius: 4px;
+}
+
+.container-fluid{
+  max-width:100% ;
+}
+#sobre, #services, #portfolio, #contato {
+  padding: 10rem 0;
+}
+#sobre{
+  background-color: aliceblue;
+}
+.bgimage{
+height: 98vh;
+max-width: 100%;
+position: relative;
+background: url("assets/bg.jpg");
+
+}
+
+.heroTitle{
+  font-size: 2.5rem;
+}
+
+.heroDesc{
+  font-size: 1.7rem;
+}
+
+.heroText{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:60%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutImage {
+  width: 100%;
+}
+
+.servicesText.card {
+  height: 200px;
+  cursor: pointer;
+  padding: 0 2rem;
+}
+
+.servicesIcon {
+  height: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.cardTitle{
+  text-align: center;
+}
+
+.card:hover .servicesIcon{
+  color: #FFAECA;
+}
+
+.servicesText:hover{
+  border: 2px solid  #FFAECA;
+}
+
+/*Icones seção contato*/
+.contactIcon{
+  font-size: 2rem;
+  color: #FFAECA;
+}
+.card:hover .contactIcon{
+  color: #FFAECA;
+}
+
+/*Footer*/
+footer{
+  background-color: #FF7BA9;
+}
+
+.footerIcon{
+  font-size:2rem;
+  color: white;
+}
+.footerIcon:hover{
+  color: #c4c4c4;
+}
+
+.footerDev{
+  background-color:#FF9ABD ;
+}
+
+

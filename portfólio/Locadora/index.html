@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locadora 2000</title>
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <img class="me-3" src="/img/film.svg" alt="Locadora 2000">
+    <a class="navbar-brand" href="#topo">Locadora 2000</a>
+
+    <div class="collapse navbar-collapse" id="navBarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li>
+        <a  class="nav-link active" aria-current="page" href="#tabfilmes">Filmes Disponíveis</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="dropGeneros" role="button" data-bs-toggle="dropdown" href="#drop" aria-expanded="false">
+          Filmes por Categoria
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#gacao">Ação</a></li>
+          <li><a class="dropdown-item" href="#ganim">Animação</a></li>
+          <li><a class="dropdown-item" href="#groman">Romance</a></li>
+          <li><a class="dropdown-item" href="#gsus">Suspense</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cadfilmes">Cadastrar Filmes</a>
+      </li>
+     </ul>
+    </div>
+  </div>
+ </nav>
+<h1 class="display-1 text-center mb-5 mt-3" id="topo">Locadora 2000</h1>
+<div class="container">
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Código</th>
+      <th scope="col">Título</th>
+      <th scope="col">Diretor</th>
+      <th scope="col">Lançamentos</th>
+      <th scope="col">Gêneros</th>
+      <th scope="col">Atriz/Ator Principal</th>
+      <th scope="col">Nota IMDb</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="text-center table-primary" colspan="7" id="gacao">Ação</th>
+    </tr>
+
+    <tr>
+      <th scope="row">1</th>
+      <td scope="col">O Pacto</td>
+      <td scope="col">Guy Ritchie</td>
+      <td scope="col">21 de abril de 2023 </td>
+      <td scope="col">Ação</td>
+      <td scope="col">Jake Gyllenhaal</td>
+      <td scope="col">7.5</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td scope="col">Alerta Máximo</td>
+      <td scope="col"> Jean-François Richet</td>
+      <td scope="col">26 de janeiro de 2023</td>
+      <td scope="col">Ação</td>
+      <td scope="col">Gerard Butler</td>
+      <td scope="col">6.5</td>
+    </tr>
+
+    <tr>
+      <th class="text-center table-primary" colspan="7" id="ganim">Animação</th>
+    </tr>
+
+    <tr>
+      <th scope="row">3</th>
+      <td scope="col">Super Mario Bros</td>
+      <td scope="col"> Aaron Horvath, Michael Jelenic</td>
+      <td scope="col"> 6 de abril de 2023  </td>
+      <td scope="col">Animação</td>
+      <td scope="col">Mario-Chris Pratt/Luigi-Charlie Day</td>
+      <td scope="col">7.1</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td scope="col">Divertida Mente</td>
+      <td scope="col"> Pete Docter</td>
+      <td scope="col">18 de junho de 2015</td>
+      <td scope="col">Animação</td>
+      <td scope="col">Alegria-Amy Poehler/Tristeza-Phyllis Smith/Nojinho-Mindy Kaling  </td>
+      <td scope="col">8.1</td>
+    </tr>
+
+    <tr>
+      <th class="text-center table-primary" colspan="7" id="groman">Romance</th>
+    </tr>
+
+    <tr>
+      <th scope="row">5</th>
+      <td scope="col">P.S. Eu Te Amo</td>
+      <td scope="col"> Richard LaGravenese</td>
+      <td scope="col"> 4 de janeiro de 2008   </td>
+      <td scope="col">Romance</td>
+      <td scope="col">Hilary Swank/Gerard Butler</td>
+      <td scope="col">7.0</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td scope="col">Um Amor para Recordar</td>
+      <td scope="col"> Adam Shankman</td>
+      <td scope="col"> 25 de janeiro de 2002 </td>
+      <td scope="col">Romance</td>
+      <td scope="col">Mandy Moore/Shane West</td>
+      <td scope="col">7.3</td>
+    </tr>
+
+    <tr>
+      <th class="text-center table-primary" colspan="7" id="gsus">Suspense</th>
+    </tr>
+
+    <tr>
+      <th scope="row">7</th>
+      <td scope="col">Um Contratempo</td>
+      <td scope="col">Oriol Paulo</td>
+      <td scope="col">6 de janeiro de 2017 </td>
+      <td scope="col">Suspense</td>
+      <td scope="col">Mario Casas</td>
+      <td scope="col">8.0</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td scope="col">Os Suspeitos</td>
+      <td scope="col">  Denis Villeneuve</td>
+      <td scope="col">18 de outubro de 2013</td>
+      <td scope="col">Suspense</td>
+      <td scope="col">Jake Gyllenhaal/Hugh Jackman</td>
+      <td scope="col">8.1</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td scope="col">Fratura</td>
+      <td scope="col"> Brad Anderson</td>
+      <td scope="col"> 22 de setembro de 2019</td>
+      <td scope="col">Suspense</td>
+      <td scope="col">Sam Worthington</td>
+      <td scope="col">6.4</td>
+    </tr>
+    <tr id="insertRow"></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="mb-5 mt-5">
+  <hr class="border-primary border-3 opacity-75">
+</div>
+
+<div class="container mb-5" id="cadfilmes">
+  <h2 class="text-center mb-4">Cadastro de Filmes</h2>
+
+  <form name="register" onsubmit="event.preventDefault()">
+    <!--Cadastro do código e do título-->
+    <div class="row">
+      <div class="mb-3 col">
+        <label for="codFilm" class="form-label">Código</label>
+        <input type="text" class="form-control" id="codFilm" name="cod"/>
+      </div>
+      <div class="mb-3 col">
+        <label for="titleFilm" class="form-label">Título</label>
+        <input type="text" class="form-control" id ="titleFilm" name="title"/>
+      </div> 
+    </div>
+
+    <!--Cadastro de Diretor e Lançamento-->
+    <div class="row">
+      <div class="mb3 col">
+        <label for="directorFilm" class="form-label">Diretor</label>
+        <input type="text" class="form-control" id="directorFilm" name="director"/>
+      </div>
+      <div class="mb-3 col">
+        <label for="yearFilm" class="form-label">Lançamento</label>
+        <input type="text" class="form-control" id="yearFilm" placeholder="DD de MM de AA" name="date"/>
+      </div>
+    </div>
+
+    <!--Cadastro Atriz/Ator Principal e Nota IMDb-->
+    <div class="row">
+      <div class="mb3 col">
+        <label for="actorFilm" class="form-label">Atriz/Ator</label>
+        <input type="text" class="form-control" id="actorFilm" name="actor"/>
+      </div>
+      <div class="mb-3 col">
+        <label for="noteFilm" class="form-label">Nota IMDb</label>
+        <input type="number" class="form-control" id="noteFilm" name="note"/>
+      </div>
+    </div>
+
+    <!--Cadastro de Gênero-->
+    <p>Selecione o Gênero</p>
+    <div class="row mt-3">
+     <div class="col form-check ms-5">
+      <input type="radio" id="radioGAcao" name="radio" class="form-check-input" value="acao"/>
+       <label for="radioGAcao" class="form-label">Ação</label>
+     </div>
+     <div class="col form-check">
+      <input type="radio" id="radioGAnim" name="radio" class="form-check-input" value="animacao"/>
+
+      <label for="radioGAnim" class="form-label">Animação</label>
+     </div>
+     <div class="col form-check">
+      <input type="radio" id="radioGRoman" name="radio" class="form-check-input" value="romance"/>
+      <label for="radioGRoman" class="form-label">Romance</label>
+     </div>
+     <div class="col form-check">
+      <input type="radio" id="radioGSus" name="radio" class="form-check-input" value="suspense"/>
+      <label for="radioGSus" class="form-label">Suspense</label>
+     </div>
+    </div>
+
+    <!--Botão de enviar-->
+    <div class="col-auto d-flex justify-content-center">
+      <button
+        type="submit"
+        onclick="validationForm(); insert()"
+        class="btn btn-primary mt-3"
+      >
+        Cadastrar
+      </button>
+
+  </form>
+</div>
+</body>
+</html>
