@@ -1,4 +1,4 @@
-✨<h1>Website Pessoal </h1>
+<h1>✨Website Pessoal </h1>
 
 Bem-vindo(a) ao meu website pessoal, onde compartilho minha jornada  em busca constante de conhecimento e crescimento. Aqui, você encontrará projetos, habilidades e informações sobre mim.
 
