@@ -28,15 +28,19 @@ Nesta seção, você encontrará informações de contato, que incluem seu ender
 
 
 <h2>Tecnologias Utilizadas</h2>
-* HTML
-* CSS
-* JavaScript
+• HTML
+<br>
+• CSS
+<br>
+• JavaScript
 
 <h2>Como Explorar</h2>
-1. Faça um clone deste repositório em sua máquina.
+1.Faça um clone deste repositório em sua máquina.
+<br>
 2. Abra o arquivo [index.html] em seu navegador.
+<br>
 3. Navegue pelas diferentes seções para conhecer mais sobre mim, meus projetos e minhas habilidades.
 
-
-
+<br>
+<br>
 made with ♥ by ccszanin 👋🏻
